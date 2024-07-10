@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f9f6f2;
+        }
+
+        .card-img-top {
+            border-radius: 50px;
+            padding: 20px;
+            transition: all 0.3s;
+        }
+
+        img:hover {
+            scale: 0.4;
+        }
+
+        .card {
+            border-radius: 30px;
+            box-shadow: 5px 15px 25px #eeeeee;
+
+        }
+
+        .card-body {
+            padding: 25px;
+            margin-top: -15px;
+
+
+        }
+
+        .button {
+            background-color: rgb(0, 91, 228);
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button2 {
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container py-5">
+        <h1 class="text-center">Social media</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAABCFBMVEX+/wH+/v7+/vz+/v///gD8/gD//QT9//z+//qiogD//f3+//egnKL5/wP9/v/x9gDLzACrqwCwrwDU1wBscQBgYlyWj5a5trTAu8CPjIxaW1JxdgDX4ACHhAB2a2Pe2N5wZ1qUlQBmaQC2rbmsoa5uaQDIyAB8dXt5ZnDc2ABGSQD19P3u4/FgWABra3FXTVTs8Bq4uwDDwcCgoqK7xQC2swDa3i29vwBHPCu2rK6BdXxINAc3MwTIyMktLgBMRjFSRCRTQmVGMVQ5LCqZkajn5eNAMSJWSQBaXwDX0dqZl6KJgIyrpAC0t8NMSBZvYHhWW2SLlQCWmI52dXTW1tJVWBZQUzleWUranAi0AAADHklEQVR4nO3a6VMTMRjH8TzZ7HZ7bFsQy7lUbhDQcokoSD0QEMUL8P//T0y2iN2DccY3LTPfDzMdhvIi85vkyZPsKgUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABk+f6gR/CgGBMMeggPhTFGmeSXQY/kATGE9W+N5ki5PNpsDHocQy6wc+nR2OPW+MTE+OTU9IzymVz3Cvwonm1XJRGeP5nzFZX+XtH8gnhSEqlU6qHI4hIzq5jrrsYmbFaeth9ae9qTxdhuiazFvEip5RWpS8rqmjKEVcCop+sS9kdVko1NY2jo84yaeSa60h9W6MnzDr1pAaO2alLVqbBEWk27Rw56aMNoZFtKXrpmSW1LsQ5z7GIrb6dLVhLWHmHl3YaVnllaaqO9pgJ93KY3kg1L62QZuk6LKv9X4I41ozuuec+EtZt8PeDhDRO7zhp7j4LdmuhsWCsv1P5oEJDWHaMaLw9evT48cvGkwxp/c7xz0A242+oz81bEq0g2LPvjzj/vOoMe3zCxDen7DxvZtqHnpPVxmfbhr+Taav+0VZRVa3PZfk1Yd1xBsnGdtfNZHU33vqZm/eGS8AN1dpIPqz2tTKQIKy25dCgwRXHPM+a0YGKJnJ/RNmQZFR8U74afyoT1h/H9yL3dUF7JnHVuefJszz3Pj2gfLN8V8EZ8IdXCsCpaVud8FRmKvHtnxkSdz90vous6e/PnhJW67FyOdCKe8iTL8PTrQtXOoNwtaY87AZW+fNskLMc/3LZ5eJ6uepmzYajFK0lyFbHwdNDDHAa+8Rvfu7O1E8+ru3BSxd3SJWn/+Hk5R4FXt+fCYG3rOImnlLl1SCI73J9R7jxEWG6Pc9VofmP96ugq9dhQxP1p/Ty2/xVxs6x6WbnPZncp/h5f/whFuxZCh7aATV7Hc/H8pZtXxqd16JMsMn/v5jy587OOuvvEU8x3nbydPJ35i3ZdwvBqZalh55Pr7oksxyRv3lq7S79mZ2/Gmu5NQKPI6l69Da/R6dw9zrEzi10QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+A+/AVG4Lu0JWdzbAAAAAElFTkSuQmCC"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Snapchat</h5>
+                        <p class="card-text">Snapchat is an American multimedia instant messaging app and service
+                            developed by Snap.</p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+
+                        <button class="button button2">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">facebook</h5>
+                        <p class="card-text">Facebook is a social media and social networking service owned by the American technology conglomerate Meta.</p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+
+                        <button class="button button2">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg2OrFq3vB9b5xbIP0xOO10sGXhL_nv7Ucvw&s"
+                    class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">tik tok</h5>
+                        <p class="card-text">TikTok, whose mainland Chinese counterpart is Douyin, is a short-form video hosting service owned by Chinese internet company ByteDance. </p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+
+                        <button class="button button2">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">telegram</h5>
+                        <p class="card-text">Telegram Messenger, commonly known as Telegram, is a cloud-based, cross-platform, instant messaging service.</p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+
+                        <button class="button button2">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/png;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">twitter</h5>
+                        <p class="card-text">twitter commonly referred to by its former name Twitter, is a social networking service.</p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+
+                        <button class="button button2">Read More</button>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMc2QBJmGGddExL4nrhdPxHOZud5XrzLKrgg&s"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">messenger</h5>
+                        <p class="card-text">Messenger, also known as Facebook Messenger, is an American proprietary instant messaging app and platform developed by Meta Platforms. </p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+
+                        <button class="button button2">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
